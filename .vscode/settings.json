@@ -1,0 +1,97 @@
+{
+    "clangd.path": "/home/dreame/llvm-project/build1/bin/clangd",
+    "clangd.detectExtensionConflicts": true,
+    "clangd.fallbackFlags": [],
+    "clangd.arguments": [
+        "--log=verbose",
+        "--background-index",
+        "--query-driver=/home/dreame/llvm-project/build-libcxx/bin/clang",
+        "--compile-commands-dir=/home/dreame/gcc-10.5.0-build/compile_commands.json",
+        "-j=12",
+        "--folding-ranges",
+        "--clang-tidy",
+        "--all-scopes-completion",
+        "--completion-style=detailed",
+        "--function-arg-placeholders",
+        "--header-insertion=iwyu",
+        "--pch-storage=disk",
+        "--enable-config",
+      ],
+    "terminal.integrated.env.linux": {
+      "PATH": "/home/dreame/llvm-project/build-libcxx/bin:${env:PATH}"
+    },
+    "files.associations": {
+      "*.tcc": "cpp"
+    },
+    "editor.semanticHighlighting.enabled": true,
+    "editor.semanticTokenColorCustomizations": {
+        "enabled": true,
+        "rules": {
+          "parameter": "#306b72",
+          "class": {
+            "fontStyle": "bold",
+            "foreground": "#729de3"
+          },
+          "type.fileScope": {
+            "fontStyle": "bold",
+            "foreground": "#729de3"
+          },
+          // for auto
+          "type": {
+            "fontStyle": "bold",
+            "foreground": "#729de3"
+          },
+          "function": {
+            "foreground": "#e5b124"
+          },
+          "typeParameter": {
+            "foreground": "#729de3",
+            "fontStyle": "italic bold",
+          },
+          "variable": "#26cdca",
+          "variable.static": {
+            "foreground": "#8f5daf",
+            "fontStyle": "bold"
+          },
+          "enum": {
+            "fontStyle": "bold",
+            "foreground": "#729de3"
+          },
+          "enumMember": "#397797",
+          "macro": {
+            "foreground": "#8f5daf",
+            "fontStyle": "bold"
+          },
+          "method": {
+            "foreground": "#e5b124",
+            "fontStyle": "underline"
+          },
+          // 只读量加粗
+          "*.readonly": {
+            "fontStyle": "bold"
+          },
+          // 只读量等效为宏
+          "*.fileScope": {
+            "foreground": "#8f5daf",
+            "fontStyle": "bold"
+          },
+          "comment": "#505050",
+          "namespace": {
+            "foreground": "#00d780",
+            "fontStyle": "bold"
+          },
+          "property": {
+            "foreground": "#7ca6b7",
+            "fontStyle": "underline"
+          },
+        }
+      },
+      "Codegeex.RepoIndex": true,
+      "Codegeex.CompletionDelay": 0.5,
+      "editor.fontSize": 16,
+      "editor.fontWeight": "10",
+      "window.zoomLevel": 1.1,
+      "terminal.integrated.fontSize": 12,
+      "cmake.sourceDirectory": "/home/dreame/llvm-project/libcxx",
+      "git.ignoreLimitWarning": true
+}
