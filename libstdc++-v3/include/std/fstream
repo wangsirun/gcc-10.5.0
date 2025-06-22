@@ -30,6 +30,7 @@
 // ISO C++ 14882: 27.8  File-based streams
 //
 
+#include <c++io.h>
 #ifndef _GLIBCXX_FSTREAM
 #define _GLIBCXX_FSTREAM 1
 
@@ -44,6 +45,7 @@
 #include <string>             // For std::string overloads.
 #endif
 
+#include "basic_file.h"
 namespace std _GLIBCXX_VISIBILITY(default)
 {
 _GLIBCXX_BEGIN_NAMESPACE_VERSION
@@ -1290,6 +1292,6 @@ _GLIBCXX_BEGIN_NAMESPACE_VERSION
 _GLIBCXX_END_NAMESPACE_VERSION
 } // namespace
 
-#include <bits/fstream.tcc>
+#include <bits/fstream.cc>
 
 #endif /* _GLIBCXX_FSTREAM */

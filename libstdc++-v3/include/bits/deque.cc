@@ -57,6 +57,7 @@
 #define _DEQUE_TCC 1
 
 #include <bits/stl_algobase.h>
+#include <bits/stl_deque.h>
 
 namespace std _GLIBCXX_VISIBILITY(default)
 {

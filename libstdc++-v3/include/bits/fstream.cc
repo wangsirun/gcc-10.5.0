@@ -39,6 +39,7 @@
 #include <bits/cxxabi_forced.h>
 #include <bits/move.h>   // for swap
 #include <cerrno>
+#include <std/fstream>
 
 namespace std _GLIBCXX_VISIBILITY(default)
 {

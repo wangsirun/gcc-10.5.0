@@ -38,6 +38,9 @@
 #include <cstdint>
 #include <chrono>
 
+#include <type_traits>
+#include <filesystem>
+
 namespace std _GLIBCXX_VISIBILITY(default)
 {
 _GLIBCXX_BEGIN_NAMESPACE_VERSION

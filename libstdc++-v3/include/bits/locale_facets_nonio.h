@@ -37,6 +37,7 @@
 #pragma GCC system_header
 
 #include <ctime>	// For struct tm
+#include <bits/locale_classes.h>
 
 namespace std _GLIBCXX_VISIBILITY(default)
 {

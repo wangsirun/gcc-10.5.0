@@ -29,10 +29,13 @@
 
 // Written by Gabriel Dos Reis <Gabriel.Dos-Reis@DPTMaths.ENS-Cachan.Fr>
 
+#include <valarray>
 #ifndef _INDIRECT_ARRAY_H
 #define _INDIRECT_ARRAY_H 1
 
 #pragma GCC system_header
+
+#include "c++config.h"
 
 namespace std _GLIBCXX_VISIBILITY(default)
 {

@@ -37,7 +37,7 @@
 
 #include <bits/forward_list.h>
 #include <bits/range_access.h>
-#include <bits/forward_list.tcc>
+#include <bits/forward_list.cc>
 
 #ifdef _GLIBCXX_DEBUG
 # include <debug/forward_list>

@@ -513,6 +513,6 @@ _GLIBCXX_BEGIN_NAMESPACE_VERSION
 _GLIBCXX_END_NAMESPACE_VERSION
 } // namespace
 
-#include <bits/basic_ios.tcc>
+#include <bits/basic_ios.cc>
 
 #endif /* _BASIC_IOS_H */

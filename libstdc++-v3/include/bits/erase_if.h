@@ -34,6 +34,8 @@
 
 #if __cplusplus >= 201402L
 
+#include "/home/dreame/gcc-10.5.0-install/include/c++/10.5.0/x86_64-pc-linux-gnu/bits/c++config.h"
+
 namespace std
 {
 _GLIBCXX_BEGIN_NAMESPACE_VERSION

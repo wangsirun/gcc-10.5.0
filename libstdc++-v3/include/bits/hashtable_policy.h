@@ -28,12 +28,16 @@
  *  @headername{unordered_map,unordered_set}
  */
 
+#include <aligned_buffer.h>
 #ifndef _HASHTABLE_POLICY_H
 #define _HASHTABLE_POLICY_H 1
 
 #include <tuple>		// for std::tuple, std::forward_as_tuple
 #include <limits>		// for std::numeric_limits
 #include <bits/stl_algobase.h>	// for std::min, std::is_permutation.
+
+#include <ext/alloc_traits.h>	// for std::allocator_traits
+#include <bits/alloc_traits.h>
 
 namespace std _GLIBCXX_VISIBILITY(default)
 {

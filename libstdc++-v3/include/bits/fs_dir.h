@@ -35,6 +35,7 @@
 # include <ext/concurrence.h>
 # include <bits/unique_ptr.h>
 # include <bits/shared_ptr.h>
+#include <filesystem>
 
 #if __cplusplus > 201703L
 # include <compare>	// std::strong_ordering

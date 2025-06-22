@@ -37,7 +37,7 @@
 #pragma GCC system_header
 
 #include "/home/dreame/gcc-10.5.0-install/include/c++/10.5.0/x86_64-pc-linux-gnu/bits/c++config.h"
-#include <bits/c++locale.h>  // Defines __c_locale, config-specific include
+#include "/home/dreame/gcc-10.5.0-install/include/c++/10.5.0/x86_64-pc-linux-gnu/bits/c++locale.h"  // Defines __c_locale, config-specific include
 #include <iosfwd>            // For ostreambuf_iterator, istreambuf_iterator
 #include <cctype>
 

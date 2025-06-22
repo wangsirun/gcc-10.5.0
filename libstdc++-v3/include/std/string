@@ -53,7 +53,7 @@
 #endif // C++20
 #include <bits/range_access.h>
 #include <bits/basic_string.h>
-#include <bits/basic_string.tcc>
+#include <bits/basic_string.cc>
 
 #if __cplusplus >= 201703L && _GLIBCXX_USE_CXX11_ABI
 namespace std _GLIBCXX_VISIBILITY(default)

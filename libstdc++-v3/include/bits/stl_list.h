@@ -64,6 +64,9 @@
 #include <ext/aligned_buffer.h>
 #endif
 
+#include <bits/stl_iterator.h>
+#include <bits/stl_algobase.h>
+
 namespace std _GLIBCXX_VISIBILITY(default)
 {
 _GLIBCXX_BEGIN_NAMESPACE_VERSION

@@ -27,6 +27,7 @@
  *  Do not attempt to use it directly. @headername{functional}
  */
 
+#include <type_traits>
 #ifndef _FUNCTIONAL_HASH_H
 #define _FUNCTIONAL_HASH_H 1
 
