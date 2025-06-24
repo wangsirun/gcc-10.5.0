@@ -27,6 +27,12 @@
  *  Do not attempt to use it directly. 
  *  @headername{tr1/unordered_map, tr1/unordered_set}
  */
+#include "c++config.h"
+#include <bits/stl_iterator_base_types.h>
+#include <bits/stl_iterator_base_funcs.h>
+#include <ext/type_traits.h>
+#include <bits/stl_algobase.h>
+#include <bits/stl_function.h>
 
 namespace std _GLIBCXX_VISIBILITY(default)
 { 

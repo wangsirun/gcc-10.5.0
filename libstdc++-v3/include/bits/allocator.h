@@ -43,7 +43,7 @@
 #ifndef _ALLOCATOR_H
 #define _ALLOCATOR_H 1
 
-#include "/home/dreame/gcc-10.5.0-install/include/c++/10.5.0/x86_64-pc-linux-gnu/bits/c++allocator.h" // Define the base class to std::allocator.
+#include "c++allocator.h" // Define the base class to std::allocator.
 #include <bits/memoryfwd.h>
 #if __cplusplus >= 201103L
 #include <type_traits>

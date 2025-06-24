@@ -63,6 +63,11 @@
 #include <tuple>
 #endif
 
+#include <bits/allocator.h>
+#include <bits/stl_function.h>
+#include <ext/alloc_traits.h>
+#include <bits/stl_tree.h>
+
 namespace std _GLIBCXX_VISIBILITY(default)
 {
 _GLIBCXX_BEGIN_NAMESPACE_VERSION

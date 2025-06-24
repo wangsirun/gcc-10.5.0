@@ -33,6 +33,11 @@
 #define _GLIBCXX_REGEX_STATE_LIMIT 100000
 #endif
 
+#include "c++config.h"
+#include <bits/std_function.h>
+#include <ext/aligned_buffer.h>
+#include <bits/stl_vector.h>
+
 namespace std _GLIBCXX_VISIBILITY(default)
 {
 _GLIBCXX_BEGIN_NAMESPACE_VERSION
@@ -398,4 +403,4 @@ namespace __detail
 _GLIBCXX_END_NAMESPACE_VERSION
 } // namespace std
 
-#include <bits/regex_automaton.tcc>
+#include <bits/regex_automaton.cc>

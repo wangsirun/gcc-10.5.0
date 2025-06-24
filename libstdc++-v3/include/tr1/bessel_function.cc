@@ -51,6 +51,9 @@
 #define _GLIBCXX_TR1_BESSEL_FUNCTION_TCC 1
 
 #include <tr1/special_function_util.h>
+#include "c++config.h"
+#include <limits>
+#include <std_abs.h>
 
 namespace std _GLIBCXX_VISIBILITY(default)
 {

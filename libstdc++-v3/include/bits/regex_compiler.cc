@@ -54,6 +54,8 @@
 // That's why we introduced dummy node here ------ "end_tag" is a dummy node.
 // All dummy nodes will be eliminated at the end of compilation.
 */
+#include "c++config.h"
+#include <bits/regex_compiler.h>
 
 namespace std _GLIBCXX_VISIBILITY(default)
 {

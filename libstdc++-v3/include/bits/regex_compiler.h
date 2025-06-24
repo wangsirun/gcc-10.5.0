@@ -28,6 +28,17 @@
  *  Do not attempt to use it directly. @headername{regex}
  */
 
+#include "c++config.h"
+#include <bits/shared_ptr.h>
+#include <bits/regex_scanner.h>
+#include <bits/regex_automaton.h>
+#include <bits/stl_stack.h>
+#include <bits/regex_constants.h>
+#include <bits/regex_error.h>
+#include <bits/stl_algo.h>
+#include <std/bitset>
+#include <bits/stl_vector.h>
+
 namespace std _GLIBCXX_VISIBILITY(default)
 {
 _GLIBCXX_BEGIN_NAMESPACE_VERSION
@@ -74,7 +85,7 @@ namespace __detail
       typedef typename _TraitsT::string_type _StringT;
       typedef typename _ScannerT::_TokenT    _TokenT;
       typedef _StateSeq<_TraitsT>            _StateSeqT;
-      typedef std::stack<_StateSeqT>         _StackT;
+      typedef std::stack<_StateSeqT, std::deque<_StateSeqT>>         _StackT;
       typedef std::ctype<_CharT>             _CtypeT;
 
       // accepts a specific token or returns false.
@@ -609,4 +620,4 @@ namespace __detail
 _GLIBCXX_END_NAMESPACE_VERSION
 } // namespace std
 
-#include <bits/regex_compiler.tcc>
+#include <bits/regex_compiler.cc>

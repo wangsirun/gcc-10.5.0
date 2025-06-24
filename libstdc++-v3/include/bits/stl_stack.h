@@ -61,6 +61,7 @@
 #if __cplusplus >= 201103L
 # include <bits/uses_allocator.h>
 #endif
+#include <bits/stl_deque.h>
 
 namespace std _GLIBCXX_VISIBILITY(default)
 {

@@ -38,6 +38,8 @@
 # include <bits/node_handle.h>
 #endif
 
+#include <bits/stl_tree.h>
+
 
 namespace std _GLIBCXX_VISIBILITY(default)
 {

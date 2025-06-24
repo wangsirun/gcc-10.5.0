@@ -55,7 +55,7 @@
 
 #ifndef _VECTOR_TCC
 #define _VECTOR_TCC 1
-#include "/home/dreame/gcc-10.5.0-install/include/c++/10.5.0/x86_64-pc-linux-gnu/bits/c++config.h"
+#include "c++config.h"
 #include <bits/stl_vector.h>
 #include <bits/stl_bvector.h>
 

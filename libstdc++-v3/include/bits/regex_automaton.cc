@@ -28,6 +28,11 @@
  *  Do not attempt to use it directly. @headername{regex}
  */
 
+#include "c++config.h"
+#include <bits/regex_automaton.h>
+#include <bits/stl_stack.h>
+#include <bits/stl_map.h>
+
 namespace std _GLIBCXX_VISIBILITY(default)
 {
 _GLIBCXX_BEGIN_NAMESPACE_VERSION

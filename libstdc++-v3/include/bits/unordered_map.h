@@ -30,6 +30,14 @@
 #ifndef _UNORDERED_MAP_H
 #define _UNORDERED_MAP_H
 
+#include "c++config.h"
+#include <bits/allocator.h>
+#include <bits/stl_iterator.h>
+#include <bits/hashtable_policy.h>
+#include <bits/functional_hash.h>
+#include <bits/stl_function.h>
+#include <bits/hashtable.h>
+
 namespace std _GLIBCXX_VISIBILITY(default)
 {
 _GLIBCXX_BEGIN_NAMESPACE_VERSION
